@@ -183,3 +183,54 @@ footer p {
     margin-top: 30px;
 
 }
+
+.blog-main {
+    display: grid;
+    
+}
+.blog-image {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.blog-image img {
+    width: 85%;
+}
+.blog-contain {
+    display: grid;
+    padding-top: 50px;
+    width: 75%;
+    justify-self: center;
+}
+.blogpost-news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #e6e9ed;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.grid-blog-main-new {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 100px;
+}
+.blog-news-img-container {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+.blog-news-img-container img {
+    width: 100px;
+    height: 100px;
+}
+.blog-news-info-container h2 {
+    border-bottom: 1px solid black;
+    width: 120px;
+    margin-bottom: 0;
+}
+.blog-news-info-container p {
+    font-weight: bold;
+    margin-top: 10px;
+}
