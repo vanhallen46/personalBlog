@@ -234,3 +234,55 @@ footer p {
     font-weight: bold;
     margin-top: 10px;
 }
+
+
+
+.perfil-main {
+    display: grid;
+}
+.perfil-main-container {
+    background-color: #e6e9ed;
+    padding: 50px 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.perfil-main-container-img {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+.perfil-main-container-img img {
+    width: 100%;
+    
+}
+.perfil-main-container-presentation {
+    grid-column: 2;
+}
+.perfil-main-container-presentation p {
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+.perfil-main-container-presentation {
+    padding: 0 50px 40px;
+}
+.perfil-projects-title h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.perfil-projects-container .project-containers {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+.perfil-projects-container .project-containers p {
+    margin-bottom: 35px;
+    font-weight: 500;
+}
